@@ -343,7 +343,7 @@
                     </xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <xsd:element name="BuyersItemIdentification" type="cac:ItemIdentificationType" minOccurs="0" maxOccurs="1">
+            <xsd:element ref="cac:BuyersItemIdentification" minOccurs="0" maxOccurs="1">
                 <xsd:annotation>
                     <xsd:documentation>
                         <ccts:Component>
@@ -359,7 +359,7 @@
                     </xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <xsd:element name="SellersItemIdentification" type="cac:ItemIdentificationType" minOccurs="0" maxOccurs="1">
+            <xsd:element ref="cac:SellersItemIdentification" minOccurs="0" maxOccurs="1">
                 <xsd:annotation>
                     <xsd:documentation>
                         <ccts:Component>
