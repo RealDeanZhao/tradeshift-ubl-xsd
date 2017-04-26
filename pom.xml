@@ -75,7 +75,13 @@
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
-
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-gpg-plugin</artifactId>
+      <version>1.6</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <!-- Add OGSi manifest to jar -->
